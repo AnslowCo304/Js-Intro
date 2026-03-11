@@ -5,10 +5,11 @@
 const firstName = "Bindapeeple";
 const lastName = "Knimbeebalo";
 const homeSchool = "Pleasantville High";
-let quiz1 = "72";
-let quiz2 = "90";
-let quiz3 = "36";
-let averageScore = (quiz1 + quiz2 + quiz3) / 3;
+const quiz1 = 72;
+const quiz2 = 90;
+const quiz3 = 36;
+const totalScore = quiz1 + quiz2 + quiz3;
+const averageScore = totalScore / 3
 
 console.log(firstName);
 console.log(lastName);
